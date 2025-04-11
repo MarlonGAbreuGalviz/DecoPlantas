@@ -21,7 +21,6 @@ body {
     font-weight: bold;
 }
 
-/* Contenedor Principal */
 .container {
     width: 80%;
     height: 1000px;
@@ -31,7 +30,6 @@ body {
     align-items: center;
 }
 
-/* Estilos de las Plantas */
 .objeto {
     display: flex;
     align-items: center;
@@ -47,21 +45,17 @@ body {
 .img {
     width: 350px;
     height: 350px;
-    /* Altura fija */
     border-radius: 10px;
     margin-right: 20px;
     margin-left: 20px;
     margin-top: 20px;
     object-fit: cover;
-    /* Recorta la imagen sin deformarla */
 }
 
-/* Información de la Planta */
 .info {
     margin-left: 20px;
 }
 
-/* Footer */
 .footer {
     background-color: #004d13;
     color: white;
